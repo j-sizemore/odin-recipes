@@ -1,0 +1,42 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: chocolate;
+}
+
+.home {
+    color: white;
+    text-align: center;
+}
+
+.home a {
+    color: antiquewhite;
+}
+
+.home a:hover {
+    color: gainsboro;
+}
+
+.recipe {
+    width: 80%;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.all-recipes-list {
+    list-style: none;
+}
+
+h1 {
+    font-family: "Georgia", serif;
+    text-align: center;
+}
+
+.foodimg {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
