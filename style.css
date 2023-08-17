@@ -4,28 +4,41 @@ body {
 }
 
 .home {
-    color: white;
+    background-color: antiquewhite;
+    width: 60%;
+    height: 100%;
     text-align: center;
+    margin: 16px auto;
+    padding: 8px;
 }
 
 .home a {
-    color: antiquewhite;
+    color: brown;
 }
 
 .home a:hover {
-    color: gainsboro;
+    color: chocolate;
 }
 
 .recipe {
     width: 80%;
     background-color: antiquewhite;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 16px auto;
     padding: 20px;
 }
 
 .all-recipes-list {
     list-style: none;
+    margin: 16px auto;
+    padding: 0;
+}
+
+.all-recipes-list li {
+    background-color: gainsboro;
+    border: 2px solid black;
+    width: 25%;
+    margin: 8px auto;
+    padding: 8px;
 }
 
 h1 {
